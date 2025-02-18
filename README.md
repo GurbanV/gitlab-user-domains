@@ -62,12 +62,11 @@ python3 main.py --gitlab-url "https://your-gitlab-instance.com" --token "your-pr
 ## 🛠 Error Handling
 
 The script includes robust error handling for:
-
-Authentication failures (exit code 2)
-Connection issues (exit code 3)
-API errors (exit code 4)
-File writing errors (exit codes 5 and 6)
-Unexpected errors (exit code 7)
+  - **`Authentication failures (exit code 2)`**
+  - **`Connection issues (exit code 3)`**
+  - **`API errors (exit code 4)`**
+  - **`File writing errors (exit codes 5 and 6)`**
+  - **`Unexpected errors (exit code 7)`**
 If an error occurs, detailed logs will be displayed in the console.
 
 
