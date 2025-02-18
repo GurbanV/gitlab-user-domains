@@ -21,38 +21,38 @@ The extracted domains can be used to configure the **whitelist in GitLab Admin s
 ## 📂 Installation
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/GurbanV/gitlab-user-domains.git
-   cd gitlab-user-domains
-   pip3 install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/GurbanV/gitlab-user-domains.git
+cd gitlab-user-domains
+pip3 install -r requirements.txt
+```
 
 ## ⚙️ Configuration
 
 1. **Option 1: Using Environment Variables (.env)**:
-  Create a .env file in the project root and add your GitLab credentials:
-  ```bash
-  GITLAB_URL=https://your-gitlab-instance.com
-  PRIVATE_TOKEN=your-private-token
-  ```
-  The script will automatically load these variables.
+Create a .env file in the project root and add your GitLab credentials:
+```bash
+GITLAB_URL=https://your-gitlab-instance.com
+PRIVATE_TOKEN=your-private-token
+```
+The script will automatically load these variables.
 
 2. **Option 2: Using Command-Line Arguments**:
-   You can also pass GitLab credentials directly as arguments:
-   ```bash
-   python main.py --gitlab-url "https://your-gitlab-instance.com" --token "your-private-token"
-   ```
+You can also pass GitLab credentials directly as arguments:
+```bash
+python main.py --gitlab-url "https://your-gitlab-instance.com" --token "your-private-token"
+```
    
 ## 📜 Usage
 
 Run the script:
-  ```bash
-  python3 main.py
-  ```
+```bash
+python3 main.py
+```
 Or with custom GitLab credentials:
-  ```bash
-  python3 main.py --gitlab-url "https://your-gitlab-instance.com" --token "your-private-token"
-  ```
+```bash
+python3 main.py --gitlab-url "https://your-gitlab-instance.com" --token "your-private-token"
+```
 
 **Output Files**:
   - all_users_with_domains.txt – Contains all usernames and emails
@@ -75,17 +75,17 @@ If an error occurs, detailed logs will be displayed in the console.
 
 1. Fork the repo
 2. Create a new branch:
-  ```bash
-  git checkout -b feature-branch
-  ```
+```bash
+git checkout -b feature-branch
+```
 3. Commit changes:
-  ```bash
-  git commit -m "Add new feature"
+```bash
+git commit -m "Add new feature"
   ```
 4. Push to branch:
-  ```bash
-  git push origin feature-branch
-  ```  
+```bash
+git push origin feature-branch
+```  
 5. Open a Pull Request
 
 
