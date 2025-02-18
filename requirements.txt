@@ -1,4 +1,4 @@
-python-gitlab
-tqdm
-requests
-python-dotenv
+python-gitlab==5.6.0
+tqdm==4.67.1
+requests==2.31.0
+python-dotenv==1.0.1
