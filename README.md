@@ -35,7 +35,6 @@ The extracted domains can be used to configure the **whitelist in GitLab Admin s
   GITLAB_URL=https://your-gitlab-instance.com
   PRIVATE_TOKEN=your-private-token
   ```
-
   The script will automatically load these variables.
 
 2. **Option 2: Using Command-Line Arguments**:
@@ -69,6 +68,7 @@ File writing errors (exit codes 5 and 6)
 Unexpected errors (exit code 7)
 If an error occurs, detailed logs will be displayed in the console.
 
+
 ## 🏗️ Contributing
 1. Fork the repo
 2. Create a new branch:
@@ -85,8 +85,10 @@ git push origin feature-branch
   ```  
 5. Open a Pull Request
 
+
 ## 📄 License
 This project is licensed under the MIT License. See LICENSE for details.
+
 
 ## ⭐ Support
 If this script helped you, give it a ⭐ on GitHub!
