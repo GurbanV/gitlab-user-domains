@@ -44,6 +44,7 @@ The extracted domains can be used to configure the **whitelist in GitLab Admin s
    ```
    
 ## 📜 Usage
+
 Run the script:
   ```bash
   python3 main.py
@@ -59,6 +60,7 @@ Or with custom GitLab credentials:
    
 
 ## 🛠 Error Handling
+
 The script includes robust error handling for:
 
 Authentication failures (exit code 2)
@@ -70,18 +72,19 @@ If an error occurs, detailed logs will be displayed in the console.
 
 
 ## 🏗️ Contributing
+
 1. Fork the repo
 2. Create a new branch:
   ```bash
-git checkout -b feature-branch
+  git checkout -b feature-branch
   ```
 3. Commit changes:
   ```bash
-git commit -m "Add new feature"
+  git commit -m "Add new feature"
   ```
 4. Push to branch:
   ```bash
-git push origin feature-branch
+  git push origin feature-branch
   ```  
 5. Open a Pull Request
 
