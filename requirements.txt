@@ -1,4 +1,4 @@
 python-gitlab==8.4.0
-tqdm==4.67.1
+tqdm==4.69.0
 requests==2.34.2
 python-dotenv==1.2.1
